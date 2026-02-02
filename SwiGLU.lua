@@ -74,8 +74,11 @@ function SwiGLU:updateGradInput(input, gradOutput)
    dSwish:cmul(oneMinusSigmoid)
    dSwish:add(sigmoid)
    
+   -- Gradient w.r.t gate: gradOutput * value * d(swish)/d(gate)
+   -- Compute element-wise: (gradOutput ⊙ value) ⊙ d(swish)/d(gate)
    local gradGate = torch.Tensor():resizeAs(gradOutput)
-   gradGate:cmul(gradOutput, value):cmul(dSwish)
+   gradGate:cmul(gradOutput, value)  -- First: gradOutput * value
+   gradGate:cmul(dSwish)             -- Then: multiply by derivative of swish
    
    -- Concatenate gradients
    self.gradInput:resize(input:size())

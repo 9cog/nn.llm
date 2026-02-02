@@ -125,7 +125,6 @@ function RotaryEmbedding:updateGradInput(input, gradOutput)
    
    for i = 1, 2 do
       local start = (i - 1) * (headDim / 2) + 1
-      local stop = i * (headDim / 2)
       cos_full:narrow(4, start, headDim / 2):copy(cos)
       sin_full:narrow(4, start, headDim / 2):copy(sin)
    end

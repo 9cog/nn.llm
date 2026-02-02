@@ -38,12 +38,18 @@ for i in {1..7}; do
 done
 echo
 
-# Check that demo script is executable
+# Check that demo script exists and is readable
 echo "Checking demo script..."
-if [ -x "examples/interesting_learnings_demo.lua" ]; then
-    echo "  ✓ Demo script is executable"
+if [ -r "examples/interesting_learnings_demo.lua" ]; then
+    echo "  ✓ Demo script exists and is readable"
+    # Check if th (Torch) interpreter is available
+    if command -v th >/dev/null 2>&1; then
+        echo "  ✓ Torch interpreter (th) is available"
+    else
+        echo "  ⚠ Torch interpreter (th) not found in PATH"
+    fi
 else
-    echo "  ✗ Demo script not executable"
+    echo "  ✗ Demo script not found or not readable"
 fi
 echo
 

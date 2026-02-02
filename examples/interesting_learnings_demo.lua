@@ -219,8 +219,14 @@ model:addSymbolicRule({
 })
 
 print("  Created neuro-symbolic LLM with:")
-print(string.format("    - Neural component: %d parameters", 
-   model:parameters()[1]:nElement()))
+local params = model:parameters()
+local totalParams = 0
+if params and #params > 0 then
+   for i = 1, #params do
+      totalParams = totalParams + params[i]:nElement()
+   end
+end
+print(string.format("    - Neural component: %d parameters", totalParams))
 print("    - Symbolic knowledge: 2 symbols")
 print("    - Reasoning rules: 1 rule")
 

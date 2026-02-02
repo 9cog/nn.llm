@@ -69,8 +69,10 @@ function SwiGLU:updateGradInput(input, gradOutput)
    local oneMinusSigmoid = torch.Tensor():resizeAs(sigmoid)
    oneMinusSigmoid:fill(1):add(-1, sigmoid)
    
-   dSwish:copy(sigmoid)
-   dSwish:addcmul(gate, sigmoid):cmul(oneMinusSigmoid):add(sigmoid)
+   -- d(swish)/d(gate) = sigmoid + gate * sigmoid * (1 - sigmoid)
+   dSwish:cmul(gate, sigmoid)
+   dSwish:cmul(oneMinusSigmoid)
+   dSwish:add(sigmoid)
    
    local gradGate = torch.Tensor():resizeAs(gradOutput)
    gradGate:cmul(gradOutput, value):cmul(dSwish)

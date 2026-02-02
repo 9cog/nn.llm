@@ -151,8 +151,13 @@ function LLaMA:generate(tokens, maxNewTokens, temperature, topP)
       -- Forward pass
       local logits = self:forward(generated)
       
-      -- Get last token logits
-      local nextTokenLogits = logits[{{}, -1, {}}]:squeeze()
+      -- Get last token logits (handle single batch case)
+      local nextTokenLogits
+      if logits:size(1) == 1 then
+         nextTokenLogits = logits[1][-1]  -- Keep dimensions for single batch
+      else
+         nextTokenLogits = logits[{{}, -1, {}}]:squeeze()
+      end
       
       -- Apply temperature
       nextTokenLogits:div(temperature)

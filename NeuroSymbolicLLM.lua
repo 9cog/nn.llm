@@ -166,10 +166,13 @@ function NeuroSymbolicLLM:updateOutput(input)
    self.output = self:applySymbolicReasoning(neuralOutput, context)
    
    -- Store experience for learning
+   -- Use sequential counter for precise ordering
+   self.experienceCounter = (self.experienceCounter or 0) + 1
    self:updateEpisodicMemory({
       input = input,
       output = self.output,
-      timestamp = os.time()
+      timestamp = os.time(),
+      sequence = self.experienceCounter
    })
    
    return self.output

@@ -92,7 +92,6 @@ function RotaryEmbedding:updateOutput(input)
    
    for i = 1, 2 do
       local start = (i - 1) * (headDim / 2) + 1
-      local stop = i * (headDim / 2)
       cos_full:narrow(4, start, headDim / 2):copy(cos)
       sin_full:narrow(4, start, headDim / 2):copy(sin)
    end
@@ -131,9 +130,9 @@ function RotaryEmbedding:updateGradInput(input, gradOutput)
       sin_full:narrow(4, start, headDim / 2):copy(sin)
    end
    
-   -- Apply inverse rotation (negate sin)
-   self.gradInput = self:_applyRotary(gradOutput, cos_full, sin_full:mul(-1))
-   sin_full:mul(-1)  -- Restore original sin values
+   -- Apply inverse rotation (use negated sin copy)
+   local sin_neg = sin_full:clone():mul(-1)
+   self.gradInput = self:_applyRotary(gradOutput, cos_full, sin_neg)
    
    return self.gradInput
 end

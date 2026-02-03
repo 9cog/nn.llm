@@ -29,3 +29,4 @@ This package provides an easy and modular way to build and train simple or compl
    * [Double-Loop Insights](DOUBLE_LOOP_INSIGHTS.md): Actionable wisdom from questioning assumptions
    * [Learning Loops Comparison](LEARNING_LOOPS_COMPARISON.md): Visual guide comparing single-loop vs. double-loop learning
    * [Double-Loop Field Guide](DOUBLE_LOOP_FIELD_GUIDE.md): Practical application guide with templates and workflows
+   * [Double-Loop Summary](DOUBLE_LOOP_SUMMARY.md): Executive summary of the double-loop learning journey

@@ -27,3 +27,5 @@ This package provides an easy and modular way to build and train simple or compl
  * Meta-Learning Resources:
    * [Meta-Learning Reflection](META_LEARNING_REFLECTION.md): Double-loop learning analysis questioning what "interesting" means
    * [Double-Loop Insights](DOUBLE_LOOP_INSIGHTS.md): Actionable wisdom from questioning assumptions
+   * [Learning Loops Comparison](LEARNING_LOOPS_COMPARISON.md): Visual guide comparing single-loop vs. double-loop learning
+   * [Double-Loop Field Guide](DOUBLE_LOOP_FIELD_GUIDE.md): Practical application guide with templates and workflows

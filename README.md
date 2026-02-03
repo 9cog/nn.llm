@@ -24,3 +24,6 @@ This package provides an easy and modular way to build and train simple or compl
    * [Interesting Learnings](INTERESTING_LEARNINGS.md): Deep dive into key insights and patterns from the codebase
    * [Quick Reference](LEARNINGS_QUICK_REFERENCE.md): Concise guide to the most interesting learnings
    * [Interactive Demo](examples/interesting_learnings_demo.lua): Hands-on demonstration of key concepts
+ * Meta-Learning Resources:
+   * [Meta-Learning Reflection](META_LEARNING_REFLECTION.md): Double-loop learning analysis questioning what "interesting" means
+   * [Double-Loop Insights](DOUBLE_LOOP_INSIGHTS.md): Actionable wisdom from questioning assumptions

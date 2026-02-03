@@ -19,3 +19,8 @@ This package provides an easy and modular way to build and train simple or compl
    * [Training](doc/training.md#nn.traningneuralnet.dok): how to train a neural network using [`StochasticGradient`](doc/training.md#nn.StochasticGradient);
    * [Testing](doc/testing.md): how to test your modules.
    * [Experimental Modules](https://github.com/clementfarabet/lua---nnx/blob/master/README.md): a package containing experimental modules and criteria.
+ * LLM and Learning Resources:
+   * [LLM Implementation](LLM_README.md): Neuro-symbolic LLM with dynamic learning for niche construction
+   * [Interesting Learnings](INTERESTING_LEARNINGS.md): Deep dive into key insights and patterns from the codebase
+   * [Quick Reference](LEARNINGS_QUICK_REFERENCE.md): Concise guide to the most interesting learnings
+   * [Interactive Demo](examples/interesting_learnings_demo.lua): Hands-on demonstration of key concepts

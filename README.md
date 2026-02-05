@@ -25,6 +25,8 @@ This package provides an easy and modular way to build and train simple or compl
    * [Quick Reference](LEARNINGS_QUICK_REFERENCE.md): Concise guide to the most interesting learnings
    * [Interactive Demo](examples/interesting_learnings_demo.lua): Hands-on demonstration of key concepts
  * Meta-Learning Resources:
+   * [Three Loops Quick Guide](THREE_LOOPS_QUICK_GUIDE.md): Practical reference for choosing and using learning loops
+   * [Triple-Loop Learning](TRIPLE_LOOP_LEARNING.md): Examining the learning process itself - how we learn to learn
    * [Meta-Learning Reflection](META_LEARNING_REFLECTION.md): Double-loop learning analysis questioning what "interesting" means
    * [Double-Loop Insights](DOUBLE_LOOP_INSIGHTS.md): Actionable wisdom from questioning assumptions
    * [Learning Loops Comparison](LEARNING_LOOPS_COMPARISON.md): Visual guide comparing single-loop vs. double-loop learning

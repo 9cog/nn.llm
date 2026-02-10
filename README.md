@@ -25,10 +25,14 @@ This package provides an easy and modular way to build and train simple or compl
    * [Quick Reference](LEARNINGS_QUICK_REFERENCE.md): Concise guide to the most interesting learnings
    * [Interactive Demo](examples/interesting_learnings_demo.lua): Hands-on demonstration of key concepts
  * Meta-Learning Resources:
+   * [**Four Loops Visual Guide**](FOUR_LOOPS_VISUAL_GUIDE.md): **Complete visual guide to all four learning loops with practical examples**
+   * [**Four Loops Quick Reference**](FOUR_LOOPS_QUICK_REFERENCE.md): **One-page reference card for rapid loop identification and decision-making**
    * [Learning Map](LEARNING_MAP.md): Visual guide to navigating all learning resources
    * [Three Loops Quick Guide](THREE_LOOPS_QUICK_GUIDE.md): Practical reference for choosing and using learning loops
    * [Learning Evolution](LEARNING_EVOLUTION.md): Synthesis showing the journey through all three learning loops
    * [Triple-Loop Learning](TRIPLE_LOOP_LEARNING.md): Examining the learning process itself - how we learn to learn
+   * [**Quadruple-Loop Epistemology**](QUADRUPLE_LOOP_EPISTEMOLOGY.md): **Deep philosophical inquiry into the nature of understanding and knowledge itself**
+   * [**Quadruple-Loop Summary**](QUADRUPLE_LOOP_SUMMARY.md): **Executive summary of the loop 4 discovery and its implications**
    * [Meta-Learning Reflection](META_LEARNING_REFLECTION.md): Double-loop learning analysis questioning what "interesting" means
    * [Double-Loop Insights](DOUBLE_LOOP_INSIGHTS.md): Actionable wisdom from questioning assumptions
    * [Learning Loops Comparison](LEARNING_LOOPS_COMPARISON.md): Visual guide comparing single-loop vs. double-loop learning

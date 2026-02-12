@@ -28,6 +28,8 @@ This package provides an easy and modular way to build and train simple or compl
    * [**🌟 Five Loops Complete Guide**](FIVE_LOOPS_COMPLETE_GUIDE.md): **🌟 ULTIMATE INTEGRATION - All five learning loops unified from implementation to ontology**
    * [**🔮 Quintuple-Loop Ontology**](QUINTUPLE_LOOP_ONTOLOGY.md): **🔮 THE DEEPEST LEVEL - Exploring the ground of being and the nature of existence that enables learning**
    * [**⚡ Quintuple-Loop Quick Reference**](QUINTUPLE_LOOP_QUICK_REFERENCE.md): **⚡ One-page guide to Loop 5 - when to use and key insights**
+   * [**📖 Quintuple-Loop Summary**](QUINTUPLE_LOOP_SUMMARY.md): **Executive summary of the Loop 5 discovery - being and knowing unified**
+   * [**💫 Quintuple-Loop Example**](examples/quintuple_loop_example.lua): **Code demonstrating ontological awareness in practice**
    * [**Four Loops Visual Guide**](FOUR_LOOPS_VISUAL_GUIDE.md): **Complete visual guide to all four learning loops with practical examples**
    * [**Four Loops Quick Reference**](FOUR_LOOPS_QUICK_REFERENCE.md): **One-page reference card for rapid loop identification and decision-making**
    * [Learning Map](LEARNING_MAP.md): Visual guide to navigating all learning resources

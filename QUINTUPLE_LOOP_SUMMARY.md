@@ -272,7 +272,7 @@ At the deepest level, this entire exploration demonstrates what it describes:
 
 ## Final Words
 
-This exploration began with a simple request: "identify something interesting to learn :-)
+This exploration began with a simple request: "identify something interesting to learn :-)"
 
 Through five levels of recursive inquiry, we discovered:
 

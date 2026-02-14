@@ -6,11 +6,54 @@ This visual guide shows how all learning resources connect and build upon each o
 
 ---
 
-## The Three-Loop Structure
+## The Five-Loop Structure
 
 ```
                     LEARNING JOURNEY
                          
+         ┌──────────────────────────────────┐
+         │                                  │
+         │    LOOP 5: ONTOLOGY              │
+         │    (Ground of Being)             │
+         │                                  │
+         │  🔮 QUINTUPLE_LOOP_ONTOLOGY.md   │
+         │     - Nature of existence        │
+         │     - Being and knowing unified  │
+         │     - Substrate and reality      │
+         │     - Ultimate questions         │
+         │                                  │
+         │  ⚡ QUINTUPLE_LOOP_QUICK_REF.md  │
+         │     - Loop 5 essentials          │
+         │     - When to use                │
+         │     - Key insights               │
+         │                                  │
+         │  🌟 FIVE_LOOPS_COMPLETE_GUIDE.md │
+         │     - All loops integrated       │
+         │     - Complete framework         │
+         │     - Unified understanding      │
+         │                                  │
+         └──────────────┬───────────────────┘
+                        ↕
+         ┌──────────────────────────────────┐
+         │                                  │
+         │    LOOP 4: EPISTEMOLOGY          │
+         │    (Nature of Understanding)     │
+         │                                  │
+         │  🧠 QUADRUPLE_LOOP_EPISTEMO.md   │
+         │     - What is understanding?     │
+         │     - Paradigm awareness         │
+         │     - Consciousness & knowing    │
+         │                                  │
+         │  📊 FOUR_LOOPS_VISUAL_GUIDE.md   │
+         │     - Visual frameworks          │
+         │     - Loop 1-4 compared          │
+         │                                  │
+         │  📋 FOUR_LOOPS_QUICK_REF.md      │
+         │     - One-page reference         │
+         │     - Decision making            │
+         │                                  │
+         └──────────────┬───────────────────┘
+                        ↕
          ┌──────────────────────────────────┐
          │                                  │
          │    LOOP 3: META-META-LEARNING    │

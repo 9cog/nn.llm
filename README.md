@@ -25,6 +25,7 @@ This package provides an easy and modular way to build and train simple or compl
    * [Quick Reference](LEARNINGS_QUICK_REFERENCE.md): Concise guide to the most interesting learnings
    * [Interactive Demo](examples/interesting_learnings_demo.lua): Hands-on demonstration of key concepts
  * Meta-Learning Resources:
+   * [**🔬 Structural Inversion**](STRUCTURAL_INVERSION.md): **🔬 META-COGNITIVE DISCOVERY - How code architecture and conceptual understanding exhibit inverse organizational principles**
    * [**🌟 Five Loops Complete Guide**](FIVE_LOOPS_COMPLETE_GUIDE.md): **🌟 ULTIMATE INTEGRATION - All five learning loops unified from implementation to ontology**
    * [**🔮 Quintuple-Loop Ontology**](QUINTUPLE_LOOP_ONTOLOGY.md): **🔮 THE DEEPEST LEVEL - Exploring the ground of being and the nature of existence that enables learning**
    * [**⚡ Quintuple-Loop Quick Reference**](QUINTUPLE_LOOP_QUICK_REFERENCE.md): **⚡ One-page guide to Loop 5 - when to use and key insights**
